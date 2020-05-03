@@ -2,7 +2,8 @@
 function ObjSorter(array) {
   this.array = array;
   this.props = new Array();
-  this.compare = (props, i = 0) => (a, b) => {
+  this.compare = (i = 0) => (a, b) => {
+    const props = this.props;
     const isAscending = props[i].isAscending;
     const aVal = a[props[i].prop];
     const bVal = b[props[i].prop];
@@ -10,7 +11,7 @@ function ObjSorter(array) {
     if (aVal < bVal) return isAscending ? -1 : 1;
     if (aVal > bVal) return isAscending ? 1 : -1;
     if (aVal === bVal) {
-      return props[i + 1] ? this.compare(props, i + 1)(a, b) : 0;
+      return props[i + 1] ? this.compare(i + 1)(a, b) : 0;
     }
   };
 }
@@ -29,7 +30,7 @@ ObjSorter.prototype.setPropUp = function (prop) {
 
 // final sort function
 ObjSorter.prototype.sort = function () {
-  return this.array.sort(this.compare(this.props));
+  return this.array.sort(this.compare());
 };
 
 const moduleExport = {
