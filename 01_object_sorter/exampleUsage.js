@@ -1,12 +1,12 @@
-const { objSorter } = require('./module');
+const { objSorter } = require('obj-sorter');
 
 /* TEST CASE */
 const testArray = [
   { name: 'Jason', height: 180, weight: 80 },
-  { name: 'Rachel', height: 170, weight: 76 },
+  { name: 'Rachel', height: 190, weight: 76 },
   { name: 'John', height: 160, weight: 50 },
   { name: 'AJ', height: 180, weight: 70 },
-  { name: 'Duke', height: 170, weight: 70 },
+  { name: 'Duke', height: 190, weight: 70 },
   { name: 'Elon', height: 160, weight: 60 },
   { name: 'Fred', height: 180, weight: 70 },
   { name: 'Peng', height: 160, weight: 50 },
@@ -33,11 +33,11 @@ console.log(sorted);
 /* RESULT */
 /*
 [
+  { name: 'Duke', height: 190, weight: 70 },
+  { name: 'Rachel', height: 190, weight: 76 },
   { name: 'AJ', height: 180, weight: 70 },
   { name: 'Fred', height: 180, weight: 70 },
   { name: 'Jason', height: 180, weight: 80 },
-  { name: 'Duke', height: 170, weight: 70 },
-  { name: 'Rachel', height: 170, weight: 76 },
   { name: 'John', height: 160, weight: 50 },
   { name: 'Peng', height: 160, weight: 50 },
   { name: 'Elon', height: 160, weight: 60 }

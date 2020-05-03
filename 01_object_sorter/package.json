@@ -1,0 +1,23 @@
+{
+    "name": "object-sorter",
+    "version": "0.1.1-beta",
+    "description": "Simple module to sort 'Array of objects' in any order by properties.",
+    "keywords": [
+        "sort objects",
+        "array of objects",
+        "object-sorter"
+    ],
+    "homepage": "https://github.com/seong7/NodeJS_Modules/tree/master/01_object_sorter",
+    "bugs": {
+        "url": "https://github.com/seong7/NodeJS_Modules/issues",
+        "email": "seongjinkim1123@gmail.com"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Jason-sj",
+        "email": "seongjinkim1123@gmail.com",
+        "url": "https://github.com/seong7"
+    },
+    "main": "module.js"
+  }
+  
