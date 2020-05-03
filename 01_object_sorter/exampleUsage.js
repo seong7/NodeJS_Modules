@@ -17,8 +17,8 @@ const testArray = [
    "height" 가 동일할 경우, "weight" 를 기준으로 내림차순 정렬하기.
    if "height" is same, sort by "weight" in DESCENDING (down) order.
 
-   if "height" and "weight" is same, sort by "name" in DESCENDING (down) order.
-   "height" 와 "weight" 가 모두 동일할 경우, "name" 을 기준으로 내림차순 정렬하기.  */
+   "height" 와 "weight" 가 모두 동일할 경우, "name" 을 기준으로 내림차순 정렬하기.  
+   if "height" and "weight" is same, sort by "name" in DESCENDING (down) order.*/
 
 
 /* INTERFACE */
