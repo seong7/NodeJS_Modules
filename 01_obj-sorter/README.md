@@ -23,7 +23,7 @@ const sortedArray = objSorter(testArray)
   .setPropUp('name')        // set Property "name" to sort by in DESCENDING order
   .sort();               // => call sort() at last
 ```
-**[>> Full example]()**
+**[>> Full example](https://github.com/seong7/NodeJS_Modules/blob/master/01_obj-sorter/exampleUsage.js)**
 
 ## License
 MIT
