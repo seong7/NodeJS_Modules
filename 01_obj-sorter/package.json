@@ -1,11 +1,11 @@
 {
-    "name": "object-sorter",
-    "version": "0.1.1-beta",
+    "name": "obj-sorter",
+    "version": "0.1.0-beta",
     "description": "Simple module to sort 'Array of objects' in any order by properties.",
     "keywords": [
         "sort objects",
         "array of objects",
-        "object-sorter"
+        "obj-sorter"
     ],
     "homepage": "https://github.com/seong7/NodeJS_Modules/tree/master/01_obj-sorter",
     "bugs": {
