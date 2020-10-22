@@ -1,6 +1,6 @@
 {
     "name": "obj-sorter",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Simple module to sort 'Array of objects' by properties in any order",
     "keywords": [
         "sort objects",
@@ -19,5 +19,4 @@
         "url": "https://github.com/seong7"
     },
     "main": "module.js"
-  }
-  
+}
