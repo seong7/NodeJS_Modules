@@ -8,15 +8,14 @@
     <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg" target="_blank" />
   </a>
 </p>
+<p align="center">
+Simple module that helps you sort 'Array of objects' by properties in any order.
+</p>
 
-> Simple module that helps you sort 'Array of objects' by properties in any order.
-
-### 🏠 [Homepage](https://github.com/seong7/NodeJS_Modules/tree/master/01_obj-sorter)
-
-## Install
+## ⭳ Install
 
 ```sh
-npm install obj-sorter
+npm i obj-sorter
 ```
 
 ## 🚀 Usage
