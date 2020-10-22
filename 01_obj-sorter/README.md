@@ -2,7 +2,7 @@
 <p align="center">
  <img src="https://img.shields.io/npm/v/obj-sorter.svg?color=blue" />
   <a href="https://www.npmjs.com/package/obj-sorter">
-    <img alt="downloads" src="https://img.shields.io/npm/dy/obj-sorter.svg?color=blue" target="_blank" />
+    <img alt="downloads" src="https://img.shields.io/npm/dt/obj-sorter.svg?color=blue" target="_blank" />
   </a>
    <a href="https://github.com/seong7/NodeJS_Modules/blob/master/01_obj-sorter/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg" target="_blank" />
